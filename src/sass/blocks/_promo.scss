@@ -1,0 +1,44 @@
+.promo {
+    min-height: 876px;
+    padding-top: 48px;
+    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+    &__title {
+        width: 437px;
+        margin-top: 184px;
+        font-family: 'Anton';
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 88px;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        width: 560px;
+        height: 58px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        padding-left: 80px;
+        margin-top: 33px;
+        text-shadow: 0 3px 3px rgb(0 0 0 / 30%);
+    }
+    &__img {
+        position: absolute;
+        margin-top: 76px;
+        top: 100px;
+        right: 70px;
+        img {
+            width: 570px;
+            transition: all 0.5s;
+        }
+    }
+    &__scroll {
+        margin-top: 65px;
+        padding-left: 80px;
+        img {
+            transition: all 0.5s;
+            &:hover {
+                transform: scale(1.15);
+            }
+        }
+    }
+}

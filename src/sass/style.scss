@@ -1,0 +1,20 @@
+/* @import 'libs/bootstrap-reboot.min'; */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/contact';
+@import 'blocks/menu';
+@import 'blocks/media';

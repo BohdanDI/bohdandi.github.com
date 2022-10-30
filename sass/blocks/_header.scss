@@ -1,0 +1,38 @@
+.header {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    grid-template-columns: 194px 530px;
+    &__item {
+        transition: all 0.5s;
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
+    &__menu {
+        display: grid;
+        align-items: center;
+        list-style-type: none;
+        column-gap: 50px;
+        grid-template-columns: 50px 77px 104px 118px;
+        &-item {
+            transition: all 0.5s;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            text-shadow: 0 3px 3px rgb(0 0 0 / 30%);
+            &:hover {
+                transform: scale(1.15);
+            }  
+            a {
+                color: #000000;
+                text-decoration: none;
+                transition: all 0.5s;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,228 @@
+@media (max-width: 1400px) {
+    .promo {
+        &__subtitle {
+            width: 477px;
+            font-size: 16px;
+        }
+    }
+    .contact {
+        &__wrapper {
+            width: 940px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .header {
+        &__menu {
+            column-gap: 35px;
+            &-item {
+                font-size: 16px;
+            }
+        }
+    }
+    .promo {
+        &__title {
+            margin-top: 150px;
+            font-size: 62px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__img {
+            right: 20px;
+            img {
+                width: 415px;
+            }
+        }
+    }
+    .contact {
+        &__title {
+            margin-left: 183px;
+        }
+        &__wrapper {
+            margin: 31px auto 63px;
+            width: 700px;        
+        }
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        margin-left: 0;
+        grid-template-columns: 194px 482px;
+    }
+    .promo {
+        &__title {
+            margin-top: 120px;
+            width: 437px;
+            font-size: 48px;
+            line-height: 65px;
+        }
+        &__subtitle {
+            width: 400px;
+            padding-left: 0;
+        }
+        &__img {
+            top: 130px;
+            right: 10px;
+            img {
+                width: 335px;
+            }
+        }
+        &__scroll {
+            padding-left: 0;
+        }
+    }
+    .contact {
+        &__title {
+            margin-left: 238px;
+        }
+    }
+    .btn {
+        &__bigger {
+            margin-left: 0;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .hamburger {
+        span {
+            display: block;
+        }
+    }
+    .header {
+        margin-left: 0;
+        &__wrapper {
+            display: none;
+        }
+    }
+    .promo {
+        min-height: 588px;
+        padding-top: 40px;
+        &__title {
+            margin-top: 64px;
+            width: 270.64px;
+            height: 109px;
+            font-size: 42px;
+        }
+        &__subtitle {
+            width: 285px;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__img {
+            top: 100px;
+            img {
+                width: 275px;
+            }
+        }
+        &__scroll {
+            display: none;
+        }
+    }
+    .btn {
+        &__bigger {
+            margin-top: 50px;
+            border-radius: 16px;
+            padding: 20px 40px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__form {
+            margin: 0 auto 28px auto;
+        }
+    }
+    .contact {
+        position: relative;
+        &__title {
+            margin-left: 0;
+            margin-top: 25px;
+            font-size: 32px;
+            line-height: 48px;
+        }
+        &__arrow {
+            position: absolute;
+            margin-top: 29px;
+            right: 10px;
+            top: -25px;
+            img {
+                width: 40px;
+            }
+        }
+        &__wrapper {
+            width: 100%;
+            min-height: 480px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+            border-radius: 30px;
+            margin: 14px auto 63px;
+        }
+        &__form {
+            margin: 0 24px;
+            &-item {
+                input, textarea {
+                    width: 100%;
+                }
+                textarea {
+                    margin-top: 20px;
+                }
+            }
+            &-text {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+        padding: 0;  
+    }
+    .promo {
+        min-height: 812px;
+        &__img {
+            position: static;
+            margin-top: 48px;
+            img {
+                width: 346px;
+            }
+        }
+    }
+    .contact {
+        &__wrapper {
+            width: 327px;
+            height: 480px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+            border-radius: 30px;
+            margin: 0;
+            margin-bottom: 43px;
+        }
+        &__form {
+            margin: -16px 24px;
+            grid-template-rows: repeat(4, 64px) 76px;
+            row-gap: 15px;
+            &-item {
+                textarea {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .btn {
+        &__form {
+            width: 154px;
+            height: 55px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
